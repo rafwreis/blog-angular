@@ -8,12 +8,12 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
 const routes : Routes = [
     // home
     {
-        path : '',
+        path: '',
         component : HomePageComponent
     },
     // blog post
     {
-        path : ':slug/:id',
+        path: ':slug/:id',
         component : PostPageComponent
     },
     // about
